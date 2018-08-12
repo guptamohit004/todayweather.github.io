@@ -1,0 +1,33 @@
+.black-jumbo {
+    margin-top: -30px;
+    border-radius: 0px !important;
+    height: 500px;
+    color: #fff;
+    background-size: cover;
+    background-color: #FF0077;
+}
+hr.short {
+    width: 100px;
+    border-bottom: 2px solid #fff;
+}
+hr.short1 {
+	width: 100px;
+    border-bottom: 4px solid red;	
+}
+hr.below {
+    width: 50px;
+    border-bottom: 1px solid #fff;
+}
+.top {
+	 background-color: #202020;
+    color: #fff;
+    border-radius: 0px !important;
+    height: 300px;
+}
+#info1,
+#info2 {
+    font-size: 30px;
+}
+#info3 {
+    font-size: 60px;
+}
