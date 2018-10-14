@@ -9,7 +9,7 @@ $(document).ready(function (){
 		var lon = current.coords.longitude;
 		console.log(lat);
 		console.log(lon);
-		var url2 =`http://dataservice.accuweather.com/locations/v1/cities/geoposition/search.json?q=${lat},${lon}&apikey=J7NWNes8Tdjw9IbaJoV5xk1jtkO1rch8`;
+		var url2 =`http://dataservice.accuweather.com/locations/v1/cities/geoposition/search.json?q=${lat},${lon}&apikey=hGgL7KDJ3gXtoTeb5i2EeBKWVQGny6ah`;
 		$.getJSON(url2,function(data){
 			var data = JSON.stringify(data);
 			var json = JSON.parse(data);
@@ -21,7 +21,7 @@ $(document).ready(function (){
     		console.log(datee);
     		$('#weather').html(Address);
 			$('#time').html(datee);
-		var url  =`http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=J7NWNes8Tdjw9IbaJoV5xk1jtkO1rch8&language=en&details=true`;
+		var url  =`http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=hGgL7KDJ3gXtoTeb5i2EeBKWVQGny6ah&language=en&details=true`;
 		$.getJSON(url,function(data){
 			var data = JSON.stringify(data);
 			var json = JSON.parse(data);
